@@ -1,10 +1,10 @@
 {
   "name"              : "simple-http-server",
-  "version"           : "0.1.0",
+  "version"           : "0.1.1",
   "author"            : "Andrew Thorp <andrewpthorp@gmail.com>",
   "description"       : "Simple HTTP Server, similar to python's SimpleHTTPServer",
   "keywords"          : ["web", "http", "simple", "server"],
-  "main"              : "./lib/mainserver",
+  "main"              : "./lib/server",
   "bin"               : { 
     "nserver": "./bin/server" 
   },
