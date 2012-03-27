@@ -8,6 +8,10 @@
   "bin"               : { 
     "nserver": "./bin/server" 
   },
+  "dependencies"      : {
+    "optimist": "0.3.x",
+    "colors": "0.6.x"
+  },
   "directories"       : { 
     "lib": "./lib", 
     "bin": "./bin" 
