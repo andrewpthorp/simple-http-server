@@ -34,7 +34,7 @@ This outputs:
 
 http://search.npmjs.org/#/simple-http-server
 
-**Thanks to http://nodejs.org/ for making this possible.**
+Thanks to http://nodejs.org/ for making this possible.
 
 ## License ##
 
