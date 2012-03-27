@@ -5,7 +5,18 @@
   "description"       : "Simple HTTP Server, similar to python's SimpleHTTPServer",
   "keywords"          : ["web", "http", "simple", "server"],
   "main"              : "./lib/mainserver",
-  "bin"               : { "nserver": "./bin/server" },
-  "directories"       : { "lib": "./lib", "bin": "./bin" },
-  "engines"           : { "node": ">= 0.3.0" }
+  "bin"               : { 
+    "nserver": "./bin/server" 
+  },
+  "directories"       : { 
+    "lib": "./lib", 
+    "bin": "./bin" 
+  },
+  "engines"           : { 
+    "node": ">= 0.3.0" 
+  },
+  "repository"        : {
+    "type": "git",
+    "url": "git://github.com/andrewpthorp/simple-http-server.git"
+  }
 }
