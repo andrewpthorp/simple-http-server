@@ -30,6 +30,10 @@ This outputs:
         
 *Please note - the help screen can change, run it when you install to see what your version is capable of.*
 
+## NPM Registry ##
+
+http://search.npmjs.org/#/simple-http-server
+
 **Thanks to http://nodejs.org/ for making this possible.**
 
 ## License ##
