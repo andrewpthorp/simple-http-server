@@ -1,5 +1,4 @@
-Simple HTTP Web Server for node.js
-==================================
+# Simple HTTP Web Server #
 
 ## Installation ##
 
@@ -24,3 +23,5 @@ This outputs:
         --help         show this help screen
         
 *Please note - the help screen can change, run it when you install to see what your version is capable of.*
+
+**Thanks to http://nodejs.org/ for making this possible.**
