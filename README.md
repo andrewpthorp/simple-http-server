@@ -1,5 +1,9 @@
 # Simple HTTP Web Server #
 
+A simple web server, built in javascript, distributed as an NPM package, for node.js.
+
+At the time of this writing, it will serve up static HTML, CSS, and JS over a specified port.
+
 ## Installation ##
 
     npm -g install simple-http-server
