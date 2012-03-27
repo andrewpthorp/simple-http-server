@@ -1,2 +1,2 @@
-A simple HTTP web server, similar to python's SimpleHTTPServer.
-==============================================================
+Simple HTTP Web Server for node.js
+==================================
