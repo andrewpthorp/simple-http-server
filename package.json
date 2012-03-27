@@ -1,6 +1,6 @@
 {
   "name"              : "simple-http-server",
-  "version"           : "0.1.1",
+  "version"           : "0.1.2",
   "author"            : "Andrew Thorp <andrewpthorp@gmail.com>",
   "description"       : "Simple HTTP Server, similar to python's SimpleHTTPServer",
   "keywords"          : ["web", "http", "simple", "server"],
