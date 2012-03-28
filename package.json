@@ -1,6 +1,6 @@
 {
   "name"              : "simple-http-server",
-  "version"           : "0.1.5",
+  "version"           : "0.1.6",
   "author"            : "Andrew Thorp <andrewpthorp@gmail.com>",
   "homepage"          : "https://github.com/andrewpthorp/simple-http-server",
   "preferGlobal"      : true,
