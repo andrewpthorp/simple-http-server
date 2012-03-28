@@ -13,4 +13,10 @@ if (argv.nologs) options.nologs = true;
 if (argv.help) options.help = true;
 
 // Run the Server!
-require('../lib/server').run(options);
+var url = require('../lib/server').run(options);
+
+// Open the URL if they specify
+if (argv.launch) {
+  require('../lib/server').printLine("Launching ".yellow + url.green + " in your default browser.".yellow+"\n");
+  require("openurl").open(url);
+}
