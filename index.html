@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Simple HTTP Server by andrewpthorp</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/andrewpthorp/simple-http-server">Fork Me on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Simple HTTP Server</h1>
+            <h2>Simple HTTP Server for Node.js</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/andrewpthorp/simple-http-server/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/andrewpthorp/simple-http-server/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+      <span class="banner-fix"></span>
+
+      <section id="main_content">
+        <h1>Simple HTTP Web Server</h1>
+
+<p>A simple web server, built in javascript, distributed as an NPM package, for node.js.</p>
+
+<p>At the time of this writing, it will serve up static HTML, CSS, and JS over a specified port.</p>
+
+<p>This is similar to the python module <code>SimpleHTTPServer</code>.</p>
+
+<h2>Installation</h2>
+
+<pre><code>npm -g install simple-http-server
+</code></pre>
+
+<p>The <code>-g</code> flag lets you use the command line tool.</p>
+
+<h2>Usage</h2>
+
+<pre><code>nserver
+</code></pre>
+
+<p>By default, this will serve up the current directory on port 80. You can see what you can configure by running:</p>
+
+<pre><code>nserver --help
+</code></pre>
+
+<p>This outputs:</p>
+
+<pre><code>-d, --directory    root directory to serve
+-p, --port         port to listen on
+    --nocolors     disable colors, default: false
+    --nologs       disable logs, default: false
+    --help         show this help screen
+</code></pre>
+
+<p><em>Please note - the help screen can change, run it when you install to see what your version is capable of.</em></p>
+
+<h2>NPM Registry</h2>
+
+<p><a href="http://search.npmjs.org/#/simple-http-server">http://search.npmjs.org/#/simple-http-server</a></p>
+
+<p>Thanks to <a href="http://nodejs.org/">http://nodejs.org/</a> for making this possible.</p>
+
+<h2>License</h2>
+
+<pre><code>Copyright 2012 Andrew Thorp
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.
+</code></pre>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/andrewpthorp">andrewpthorp</a> can be found on <a href="https://github.com/andrewpthorp/simple-http-server">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
