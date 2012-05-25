@@ -40,3 +40,23 @@ describe("config defaults", function(){
   })
 
 });
+
+describe("getMimeType", function(){
+
+  it("should be defined", function(){
+    expect(getMimeType).toBeDefined();
+  });
+
+  it("should be a function", function(){
+    expect(getMimeType).toBeAFunction();
+  });
+
+  it("should return the correct mime types", function(){
+    expect(getMimeType("this/is/a/test.html")).toBe("text/html");
+    expect(getMimeType("testing-javascript.js")).toBe("application/javascript");
+    expect(getMimeType("sample Image - hello.png")).toBe("image/png");
+    expect(getMimeType("test.JPG")).toBe("image/jpeg");
+    expect(getMimeType("TEST.jPEG")).toBe("image/jpeg");
+  });
+
+});
