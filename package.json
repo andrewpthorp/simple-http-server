@@ -1,25 +1,25 @@
 {
   "name"              : "simple-http-server",
-  "version"           : "0.1.6",
+  "version"           : "0.1.7",
   "author"            : "Andrew Thorp <andrewpthorp@gmail.com>",
   "homepage"          : "https://github.com/andrewpthorp/simple-http-server",
   "preferGlobal"      : true,
   "description"       : "Simple HTTP Server, similar to python's SimpleHTTPServer",
   "keywords"          : ["web", "http", "simple", "server"],
   "main"              : "./lib/server",
-  "bin"               : { 
-    "nserver": "./bin/server" 
+  "bin"               : {
+    "nserver": "./bin/server"
   },
   "dependencies"      : {
     "optimist": "0.3.x",
     "colors": "0.6.x",
     "openurl": "1.1.x"
   },
-  "directories"       : { 
-    "lib": "./lib", 
-    "bin": "./bin" 
+  "directories"       : {
+    "lib": "./lib",
+    "bin": "./bin"
   },
-  "engines"           : { 
+  "engines"           : {
     "node": "0.6.x",
     "npm": "1.1.x"
   },
