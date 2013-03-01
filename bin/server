@@ -11,6 +11,7 @@ if (argv.directory) options.directory = argv.directory;
 if (argv.nocolors) options.colors = false;
 if (argv.nologs) options.nologs = true;
 if (argv.help) options.help = true;
+if (argv.auth || argv.a) options.auth = argv.auth || argv.a;
 
 // Run the Server!
 var url = require('../lib/server').run(options);
